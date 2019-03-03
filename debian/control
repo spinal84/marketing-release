@@ -1,0 +1,126 @@
+Source: marketing-release
+Section: misc
+Priority: optional
+Maintainer: Arthur Demchenkov <spinal.by@gmail.com>
+Build-Depends: debhelper (>= 10)
+Standards-Version: 4.3.0
+
+Package: osso-uri-l10n-mr0
+Section: misc
+Priority: optional
+Architecture: all
+Multi-arch: foreign
+Depends:
+ osso-uri-l10n-ruru,
+ osso-uri-l10n-frfr,
+ osso-uri-l10n-frca,
+ osso-uri-l10n-dadk,
+ osso-uri-l10n-itit,
+ osso-uri-l10n-svse,
+ osso-uri-l10n-nono,
+ osso-uri-l10n-fifi,
+ osso-uri-l10n-nlnl,
+ osso-uri-l10n-enus,
+ osso-uri-l10n-dede,
+ osso-uri-l10n-esmx,
+ osso-uri-l10n-eses,
+ osso-uri-l10n-cscz,
+ osso-uri-l10n-ptpt,
+ osso-uri-l10n-engb,
+ osso-uri-l10n-plpl,
+Provides: osso-uri-l10n-mr
+Description: osso-uri marketing release package
+ This is a metapackage for osso-uri to pull all the l10n packages.
+ Application developers of osso-uri should depend on
+ "osso-uri-l10n-mr0 | osso-uri-l10n-mr"
+ to ensure correct locales are getting installed.
+
+Package: hildon-fm-l10n-mr0
+Section: misc
+Priority: optional
+Architecture: all
+Multi-arch: foreign
+Depends:
+ hildon-fm-l10n-ruru,
+ hildon-fm-l10n-frfr,
+ hildon-fm-l10n-frca,
+ hildon-fm-l10n-dadk,
+ hildon-fm-l10n-itit,
+ hildon-fm-l10n-svse,
+ hildon-fm-l10n-nono,
+ hildon-fm-l10n-fifi,
+ hildon-fm-l10n-nlnl,
+ hildon-fm-l10n-enus,
+ hildon-fm-l10n-dede,
+ hildon-fm-l10n-esmx,
+ hildon-fm-l10n-eses,
+ hildon-fm-l10n-cscz,
+ hildon-fm-l10n-ptpt,
+ hildon-fm-l10n-engb,
+ hildon-fm-l10n-plpl,
+Provides: hildon-fm-l10n-mr
+Description: hildon-fm marketing release package
+ This is a metapackage for hildon-fm to pull all the l10n packages.
+ Application developers of hildon-fm should depend on
+ "hildon-fm-l10n-mr0 | hildon-fm-l10n-mr"
+ to ensure correct locales are getting installed.
+
+Package: hildon-libs-l10n-mr0
+Section: misc
+Priority: optional
+Architecture: all
+Multi-arch: foreign
+Depends:
+ hildon-libs-l10n-ruru,
+ hildon-libs-l10n-frfr,
+ hildon-libs-l10n-frca,
+ hildon-libs-l10n-dadk,
+ hildon-libs-l10n-itit,
+ hildon-libs-l10n-svse,
+ hildon-libs-l10n-nono,
+ hildon-libs-l10n-fifi,
+ hildon-libs-l10n-nlnl,
+ hildon-libs-l10n-enus,
+ hildon-libs-l10n-dede,
+ hildon-libs-l10n-esmx,
+ hildon-libs-l10n-eses,
+ hildon-libs-l10n-cscz,
+ hildon-libs-l10n-ptpt,
+ hildon-libs-l10n-engb,
+ hildon-libs-l10n-plpl,
+Provides: hildon-libs-l10n-mr
+Description: hildon-libs marketing release package
+ This is a metapackage for hildon-libs to pull all the l10n packages.
+ Application developers of hildon-libs should depend on
+ "hildon-libs-l10n-mr0 | hildon-libs-l10n-mr"
+ to ensure correct locales are getting installed.
+
+Package: osso-system-lock-l10n-mr0
+Section: misc
+Priority: optional
+Architecture: all
+Multi-arch: foreign
+Depends:
+ osso-system-lock-l10n-ruru,
+ osso-system-lock-l10n-frfr,
+ osso-system-lock-l10n-frca,
+ osso-system-lock-l10n-dadk,
+ osso-system-lock-l10n-itit,
+ osso-system-lock-l10n-svse,
+ osso-system-lock-l10n-nono,
+ osso-system-lock-l10n-fifi,
+ osso-system-lock-l10n-nlnl,
+ osso-system-lock-l10n-enus,
+ osso-system-lock-l10n-dede,
+ osso-system-lock-l10n-esmx,
+ osso-system-lock-l10n-eses,
+ osso-system-lock-l10n-cscz,
+ osso-system-lock-l10n-ptpt,
+ osso-system-lock-l10n-engb,
+ osso-system-lock-l10n-plpl,
+Provides: osso-system-lock-l10n-mr
+Description: osso-system-lock marketing release package
+ This is a metapackage for osso-system-lock to pull all the l10n packages.
+ Application developers of osso-system-lock should depend on
+ "osso-system-lock-l10n-mr0 | osso-system-lock-l10n-mr"
+ to ensure correct locales are getting installed.
